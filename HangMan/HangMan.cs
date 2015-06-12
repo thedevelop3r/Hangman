@@ -63,7 +63,7 @@ namespace Hangman
 			if (_guessedWord == _word)
 			{
 				_inProgress = false;
-			} else if (_wrongLetters.Length > _guessLimit)
+			} else if (_wrongLetters.Length > _guessLimit-1)
 			{
 				_inProgress = false;
 			}
