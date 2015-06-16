@@ -56,9 +56,7 @@ namespace Hangman
 			
 			_guessedWord = CheckGuess(guess);
 
-			_guessedLetters += guess;
-
-			Console.WriteLine (_guessedWord);
+			Console.WriteLine (_guessedWord + " | " + _guessedLetters + " | " + _wrongLetters.Length);
 
 			if (_guessedWord == _word)
 			{
@@ -86,6 +84,9 @@ namespace Hangman
 
 			if (!IsDuplicate (letter))
 			{
+
+				_guessedLetters += letter;
+
 				for (int i = 0; i < _word.Length; i++)
 				{
 					if (letter == _word [i])

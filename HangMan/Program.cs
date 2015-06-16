@@ -7,7 +7,7 @@ namespace Hangman
 
 		public static void Main (string[] args)
 		{
-			Hangman game = new Hangman ("robert james meade", 5);
+			Hangman game = new Hangman ("cyan", 5);
 			game.Start ();
 		}
 	}
