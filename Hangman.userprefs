@@ -2,8 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.Workbench ActiveDocument="HangMan/HangMan.cs">
     <Files>
-      <File FileName="HangMan/HangMan.cs" Line="105" Column="6" />
-      <File FileName="HangMan/Program.cs" Line="11" Column="18" />
+      <File FileName="HangMan/HangMan.cs" Line="22" Column="22" />
+      <File FileName="HangMan/Program.cs" Line="12" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

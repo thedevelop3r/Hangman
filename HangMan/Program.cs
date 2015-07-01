@@ -7,8 +7,23 @@ namespace Hangman
 
 		public static void Main (string[] args)
 		{
-			Hangman game = new Hangman ("cyan", 5);
-			game.Start ();
+
+			try
+			{
+				Hangman game = new Hangman (args[0], Int32.Parse(args[1]));
+				game.Start ();
+			} catch
+			{
+				try
+				{
+					Hangman game = new Hangman (args[0], 5);
+					game.Start ();
+				} catch 
+				{
+					Console.WriteLine ("HangMan.exe <word> <wrongLetterLimit>");
+				}
+			}
 		}
+
 	}
 }
